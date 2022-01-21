@@ -1,0 +1,68 @@
+body{
+    margin:0px;
+    position: relative;
+}
+h1{
+    text-align: center;
+    color:rgb(9, 34, 146);
+    margin-top: -1px;
+}
+.container{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 0px;
+    border-radius: 3px;
+    background-color: rgb(214, 236, 248);
+    height: 190px;
+    width:96%;
+    padding-left: 20px;
+    padding-top: 10px;
+    white-space: nowrap;
+}
+.name{
+    text-align: center;
+    font-weight:bold;
+    font-size: 25px;
+    margin-bottom: 60px;
+    color: rgb(139, 41, 41);
+}
+input[type="submit"]{
+    color: rgb(7, 7, 7);
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    background: white;
+    border: solid 3px rgb(187, 211, 221);
+    
+}
+input[type="submit"]:hover{
+    background: rgb(23, 23, 151);
+    color: rgb(214, 205, 205);
+    transition: 500ms;
+    border: solid 3px rgb(14, 17, 192);
+}
+
+table {
+    width: 96%;
+    table-layout:fixed;
+  }
+a{
+    color: rgb(128, 41, 41);
+    font-weight: bold;
+}
+a:hover{
+    background: rgb(23, 23, 151);
+    color: rgb(255, 251, 251);
+    transition: 300ms;
+    border: solid 3px rgb(14, 17, 192);
+}
+.header1{
+    margin-left: 20px;
+}
+.header2{
+    margin-left: 88%;
+}
